@@ -1,0 +1,21 @@
+.blurry-text {
+   color: transparent;
+   text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+#Dainera {
+   align:"center";
+   font-family: Pompadur, 'Monarch', cursive;
+   font-size: 100px;
+   color: grey;
+   /*margin: 0px 0px 0px 0px;*/
+   transition: 3s;
+   text-align: center;
+}
+#Dainera:hover {
+   color: transparent;
+   text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.thumb * {
+   align: center;
+}
+
