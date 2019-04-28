@@ -15,7 +15,11 @@
    color: transparent;
    text-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
+.thumb {
+   margin: auto;
+   width: 1150px;
+}
 .thumb * {
-   align: center;
+   margin: 25px;
 }
 
