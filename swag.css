@@ -1,10 +1,10 @@
-.blurry-text {
-   color: transparent;
-   text-shadow: 0 0 5px rgba(0,0,0,0.5);
-}
+@font-face {
+   font-family: Monarch; /* Гарнитура шрифта */
+   src: url(12073.otf); /* Путь к файлу со шрифтом */
+  }
 #Dainera {
    align:"center";
-   font-family: Pompadur, 'Monarch', cursive;
+   font-family: 'Monarch', cursive;
    font-size: 100px;
    color: grey;
    /*margin: 0px 0px 0px 0px;*/
@@ -20,6 +20,6 @@
    width: 1150px;
 }
 .thumb * {
-   margin: 25px;
+   margin-left: 50px;
 }
 
