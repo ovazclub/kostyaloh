@@ -19,13 +19,12 @@
    text-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 .thumb {
-   margin: auto;
-   width: 80%;
+   padding-left: 12.5%;
+   /* width: %; */
 }
-/*.thumb * {
-   margin-left: 50px;
+.thumb * {
    margin-bottom: 50px;
-}*/
+}
 .margin {
    margin-left: 50px;
    margin-right: 50px;
