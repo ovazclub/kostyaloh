@@ -6,20 +6,20 @@
         <title>Dainera</title>
         <link href="simplebox.css"
         <script type="text/javascript" src="simplebox_util.js"></script>
-<script type="text/javascript">
-(function(){
-var boxes=[],els,i,l;
-if(document.querySelectorAll){
-els=document.querySelectorAll('a[rel=simplebox]');	
-Box.getStyles('simplebox_css','simplebox.css');
-Box.getScripts('simplebox_js','simplebox.js',function(){
-simplebox.init();
-for(i=0,l=els.length;i<l;++i)
-simplebox.start(els[i]);
-simplebox.start('a[rel=simplebox_group]');			
-});
-}
-})();</script>
+        <script type="text/javascript">
+        (function(){
+        var boxes=[],els,i,l;
+        if(document.querySelectorAll){
+        els=document.querySelectorAll('a[rel=simplebox]');	
+        Box.getStyles('simplebox_css','simplebox.css');
+        Box.getScripts('simplebox_js','simplebox.js',function(){
+        simplebox.init();
+        for(i=0,l=els.length;i<l;++i)
+        simplebox.start(els[i]);
+        simplebox.start('a[rel=simplebox_group]');			
+        });
+        }
+        })();</script>
     </head>
     <body>
         <div id="ddd">    
@@ -28,14 +28,11 @@ simplebox.start('a[rel=simplebox_group]');
             </h1>
         </div>
         <div class="thumb" >
-            <a rel="simplebox" href="imgs/1.jpg">
-                <img width="300" src="imgs/1.jpg">
-            </a>
             <img src="imgs/1.jpg" id="one" width="300" height="300">
-            <img src="imgs/2.jpg" id="one" width="300" height="300">
+            <img src="imgs/2.jpg" id="one" class="margin" width="300" height="300">
             <img src="imgs/3.jpg" id="one" width="300" height="300">
             <img src="imgs/4.jpg" id="one" width="300" height="300">
-            <img src="imgs/5.jpg" id="one" width="300" height="300">
+            <img src="imgs/5.jpg" id="one" class="margin" width="300" height="300">
             <img src="imgs/6.jpg" id="one" width="300" height="300">
         </div>
     </body>

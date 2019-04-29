@@ -22,9 +22,13 @@
    margin: auto;
    width: 80%;
 }
-.thumb * {
+/*.thumb * {
    margin-left: 50px;
    margin-bottom: 50px;
+}*/
+.margin {
+   margin-left: 50px;
+   margin-right: 50px;
 }
 #one {
    transition: 1.7s;
