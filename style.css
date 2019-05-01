@@ -1,15 +1,18 @@
 body {
 	margin:0;
 }
-span {
-	color: red;
+a {
+	color: white;
 	text-align: center;
 	z-index: 3;
 	position: fixed;
-	background-color: white;
+	font-family: Monarch;
+	font-size: 25px;
+	text-shadow:0 0 10px rgb(240, 240, 240);
+	text-decoration: none;
 }
 .image {
-	cursor: pointer; ;
+	cursor: pointer;
 }
 
 .popup {
