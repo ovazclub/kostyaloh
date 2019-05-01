@@ -2,6 +2,10 @@
    font-family: Monarch; /* Гарнитура шрифта */
    src: url(12073.otf); /* Путь к файлу со шрифтом */
 }
+body {
+   margin: 0px;
+   padding: 0px;
+}
 #ddd {
    width: 374px;
    margin: auto;
