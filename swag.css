@@ -2,11 +2,16 @@
    font-family: Monarch; /* Гарнитура шрифта */
    src: url(12073.otf); /* Путь к файлу со шрифтом */
 }
+#ddd {
+   width: 374px;
+   margin: auto;
+}
 #Dainera {
    font-family: 'Monarch', cursive;
    font-size: 100px;
    color: grey;
    transition: filter 3s;
+   display: inline-block;
 }
 #Dainera:hover {
    -webkit-filter: blur(5px);
