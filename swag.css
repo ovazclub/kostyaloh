@@ -1,35 +1,27 @@
 @font-face {
    font-family: Monarch; /* Гарнитура шрифта */
    src: url(12073.otf); /* Путь к файлу со шрифтом */
-  }
-#ddd {
-   width: 374px;
-   margin: auto;
 }
 #Dainera {
    font-family: 'Monarch', cursive;
    font-size: 100px;
    color: grey;
-   /*margin: 0px 0px 0px 0px;*/
-   transition: 3s;
-   display: inline-block;
+   transition: filter 3s;
 }
 #Dainera:hover {
-   color: transparent;
-   text-shadow: 0 0 5px rgba(0,0,0,0.5);
-}
-.thumb {
-   margin: auto;
-   width: 80%;
-}
-.thumb * {
-   margin-left: 50px;
-   margin-bottom: 50px;
-}
-#one {
-   transition: 1.7s;
-}
-#one:hover {
+   -webkit-filter: blur(5px);
+   -moz-filter: blur(5px);
+   -o-filter: blur(5px);
+   -ms-filter: blur(5px);
    filter: blur(5px);
 }
-
+#one {
+   transition: filter 1.7s;
+}
+#one:hover {
+   -webkit-filter: blur(5px);
+   -moz-filter: blur(5px);
+   -o-filter: blur(5px);
+   -ms-filter: blur(5px);
+   filter: blur(5px);
+}
