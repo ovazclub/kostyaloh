@@ -1,0 +1,102 @@
+body {
+	margin:0;
+}
+.nad {
+	position: fixed;
+	z-index:4;
+	/* top: 0; */
+	left: 0;
+	bottom: 5px;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	width: auto;
+	height: auto;
+}
+a {
+	color: white;
+	z-index: 4;
+	font-family: Monarch;
+	font-size: 33px;
+	text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+	-moz-text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+	-webkit-text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+	-o-text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+	-ms-text-shadow: 0px 0px 6px rgba(255,255,255,0.7);	
+	text-decoration: none;
+	margin-top: auto;
+	margin-bottom: auto;
+	text-align: center;
+}
+.image {
+	cursor: pointer;
+}
+.popup {
+	position: absolute;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	display:none;
+	text-align:center;
+}
+.popup_bg {
+	background:rgba(0,0,0,0.3);
+	position:fixed;
+	z-index:1;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: auto;
+	height: auto;
+}
+.popup_img {
+	position: fixed;
+	z-index:2;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	max-height: 85%;
+}
+.popup_img {
+  pointer-events: none;
+}
+/* .close {
+	color: white;
+	position: fixed;
+	right: 32px;
+	top: 32px;
+	z-index: 3;
+	cursor: pointer;
+	font-family: sans-serif;
+	font-size: 40px;
+}
+.close:hover {
+	text-shadow: 0px 0px 6px rgb(255, 255, 255);
+} */
+.close {
+	position: fixed;
+	right: 32px;
+	top: 32px;
+	width: 32px;
+	height: 32px;
+	z-index: 3;
+}
+.close:hover {
+	cursor: pointer;
+}
+.close:before, .close:after {
+	position: absolute;
+	left: 15px;
+	content: ' ';
+	height: 33px;
+	width: 2px;
+	background-color: white;
+}
+.close:before {
+	transform: rotate(45deg);
+}
+.close:after {
+	transform: rotate(-45deg);
+}
