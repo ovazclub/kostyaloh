@@ -5,17 +5,15 @@ $(document).ready(function() { // Ждём загрузки страницы
 		var src = img.attr('src'); // Достаем из этого изображения путь до картинки
 		var op = img.attr('op');
 		$("body").append("<div class='popup'>"+ //Добавляем в тело документа разметку всплывающего окна
-						 "<div class='popup_bg'></div>"+ // Блок, который будет служить фоном затемненным
-						 "<div>"+
-						 "<img src='"+src+"' class='popup_img' />"+ // Само увеличенное фото
-						 "<span z-index='4'>"+op+"<span>"+
-						 "</div>"+
-						 "</div>");
+			"<div class='popup_bg'><div class='nad'>"+op+"</div></div>"+ // Блок, который будет служить фоном затемненным
+			"<img src='"+src+"' class='popup_img' />"+ // Само увеличенное фото
+			"</div>");
 		$(".popup").fadeIn(200); // Медленно выводим изображение
 		$(".popup_bg").click(function(){	// Событие клика на затемненный фон	   
 			$(".popup").fadeOut(200);	// Медленно убираем всплывающее окн	
       setTimeout(function() {	// Выставляем таймер
 			$(".popup").remove(); // Удаляем разметку всплывающего окна
+			$("span").remove();
 			}, 200);
 		});
 	});
