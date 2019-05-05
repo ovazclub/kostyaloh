@@ -5,6 +5,7 @@
 body {
    margin: 0px;
    padding: 0px;
+   background-color: black;
 }
 #ddd {
    width: 374px;
@@ -13,7 +14,7 @@ body {
 #Dainera {
    font-family: 'Monarch', cursive;
    font-size: 100px;
-   color: grey;
+   color: white;
    transition: filter 3s;
    display: inline-block;
 }
@@ -42,4 +43,31 @@ body {
 .three * {
    display: inline;
    margin: 25px;
+}
+.is_overlay{ 
+   display: block; 
+   width: 100%; 
+   height: 100%; 
+   z-index: -4;
+}
+#trailer {
+   position: fixed;
+   top: 0; 
+   right: 0; 
+   bottom: 0; 
+   left: 0;
+   overflow: hidden;
+}
+
+#trailer > video {
+   position: absolute;
+   top: -5px;
+   left: 1px;
+   width: 100%;
+   height: 100%;
+   min-width: 100%; 
+   min-height: 100%;
+   width: auto; 
+   height: auto; 
+   filter: blur(5px);
 }
